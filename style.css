@@ -155,18 +155,22 @@ img {
 	overflow: hidden;
 
 
+
 }
 
 .row6 {
 	display: flex;
 	margin: auto;
 	height: auto;
+
 }
 
 .col6 {
 	width: 33.33%;
 	float: left;
 	margin: auto;
+	margin-top: 2px;
+	line-height: 1.6em;
 }
 
 
@@ -201,11 +205,13 @@ img {
 	margin: auto;
 	height: auto;
 	line-height: 1.6em;
+
 }
 
 .col7 {
 	width: 33.33%;
 	float: left;
+
 	
 }
 
@@ -225,6 +231,7 @@ img {
 	text-align: left;
 	font-family: Georgia;
 	font-size: 25px;
+	text-align: center;
 }
 
 
