@@ -15,6 +15,7 @@ html {
 
 }
 
+
 ul.topnav li {
   list-style-type: none;
   margin: 0;
@@ -471,6 +472,11 @@ article p {
 	line-height: 1.5em;
 }
 
+.col3 article p {
+	list-style-type: none;
+	text-decoration: none;
+}
+
 article ul li {
 	font-size: 18px;
 	margin: 5px;
@@ -629,6 +635,9 @@ footer.footsy ul li {
 }
 
 .col4 ul li a {
+	font-size: 16px;
+	margin: auto;
+	line-height: 1.6em;
 	color: black;
 	list-style-type: none;
 	display: block;
