@@ -200,12 +200,13 @@ img {
 	display: flex;
 	margin: auto;
 	height: auto;
+	line-height: 1.6em;
 }
 
 .col7 {
 	width: 33.33%;
 	float: left;
-	margin: auto;
+	
 }
 
 
@@ -214,7 +215,7 @@ img {
 	border-radius: 0;
 	width: 300px;
 	height: 300px;
-	line-height: 1.2em;
+	margin: auto;
 	padding-top: 1px;
 }
 
