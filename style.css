@@ -501,25 +501,6 @@ iframe {
 
 }
 
-.row8 {
-	display: flex;
-	margin: auto;
-}
-
-.col8 {
-	flex: 33.33%;
-	margin: 1px;
-	padding: 4px;
-}
-
-.icon2 img {
-	min-width: 75%;
-	width: 300px;
-	height: 400px;
-	margin-left: 6%;
-	box-shadow: -2px -1px coral;
-}
-
 
 .read-button {
 	width: 20%;
@@ -557,11 +538,35 @@ iframe {
 
 .icon1 img {
 	min-width: 75%;
+	line-height: 2em;
+	padding-top: 2px;
 	width: 300px;
-	height: 400px;
+	height: 450px;
 	margin-left: 18%;
 	box-shadow: -2px -1px coral;
 }
+
+.row8 {
+	display: flex;
+	margin: auto;
+}
+
+.col8 {
+	flex: 33.33%;
+	margin: 1px;
+	padding: 4px;
+}
+
+.icon2 img {
+	min-width: 75%;
+	line-height: 2em;
+	padding-top: 2px;
+	width: 300px;
+	height: 450px;
+	margin-left: 6%;
+	box-shadow: -2px -1px coral;
+}
+
 
 
 .logo1 {
@@ -605,7 +610,7 @@ iframe {
 
 p {
 	width: 100%;
-	margin: 0;
+	margin: auto;
 }
 
 div.mobilestack {
