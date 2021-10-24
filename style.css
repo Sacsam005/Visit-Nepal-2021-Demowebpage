@@ -11,7 +11,7 @@ nav {
 
 
 html {
-	font-family: serif, sans-serif, "Times New Roman";
+	font-family: Georgia, sans-serif, "Times New Roman";
 
 }
 
@@ -105,6 +105,8 @@ ul.topnav.responsive li a {
 
 
 h1, h2, h3, header h1.headsection {
+	font-size: 30px;
+	font-family: Georgia, sans-serif, "Times New Roman";
 	text-align: center;
 	text-shadow: 2px 2px 1px black;
 	
@@ -145,6 +147,99 @@ img {
   padding: 5px;
 }
 
+
+.box {
+	margin: auto;
+	width: 100%;
+	overflow: hidden;
+
+
+}
+
+.row6 {
+	display: flex;
+	margin: auto;
+	height: auto;
+}
+
+.col6 {
+	width: 33.33%;
+	float: left;
+	margin: auto;
+}
+
+
+.col6 img {
+	display: inline-block;
+	border-radius: 0;
+	width: 300px;
+	height: 300px;
+	line-height: 1.2em;
+	padding-top: 1px;
+}
+
+.col6 h1 {
+	color: black;
+	text-shadow: none;
+	text-align: left;
+	font-family: Georgia;
+	font-size: 25px;
+}
+
+.col6 p {
+	font-size: 15px;
+	color: #ff;
+	text-align: left;
+	justify-content: left;
+	line-height: 1.2em;
+
+}
+
+.row7 {
+	display: flex;
+	margin: auto;
+	height: auto;
+}
+
+.col7 {
+	width: 33.33%;
+	float: left;
+	margin: auto;
+}
+
+
+.col7 img {
+	display: inline-block;
+	border-radius: 0;
+	width: 300px;
+	height: 300px;
+	line-height: 1.2em;
+	padding-top: 1px;
+}
+
+.col7 h1 {
+	color: black;
+	text-shadow: none;
+	text-align: left;
+	font-family: Georgia;
+	font-size: 25px;
+}
+
+
+
+.details-button {
+	width: 25%;
+	display: block;
+	margin: auto;
+
+}
+
+.details-button:hover:not(.active){
+	background-color: coral;
+}
+
+
+
 .borderimg {
 border-radius: 50%;
 height: 300px;
@@ -153,7 +248,10 @@ width: 400px;
 
 
 body {
-	background-color: #4444;
+	background-color: #ece8e8;
+	font: Georgia, sans-serif, "Times New Roman";
+	font-variant-numeric: proportional-nums;
+	font-family: normal 1.5em /1.1 OFL Sorts Mill Goudy, Noto Nastaliq Urdu, My Noto Nastaliq Urdu, Georgia, serif;
 }
 
 
@@ -296,6 +394,8 @@ form {
 }
 
 
+
+
 .row2 {
 	display: flex;
 	margin: auto;
@@ -339,26 +439,90 @@ label {
 	text-align: center;
 }
 
-button {
-	color: #fff;
-	font-weight: 600;
-	background-color: darkblue;
-	padding: 10px 30px;
-	font-size: 16px;
-	text-align: center;
-	align-items: center;
-	
-	border-radius: 7px;
-}
 
 .learnmore {
 	display: block;
 	margin: auto;
+	color: #fff;
+	font-weight: 600;
+	background-color: white;
+	padding: 10px 30px;
+	font-size: 16px;
+	text-align: center;
+	align-items: center;	
+	border-radius: 7px;
+}
+
+article h1 {
+	font: Georgia, sans-serif, "Times New Roman";
+	text-align: left;
+	color: black;
+	text-shadow: none;
+	font-weight: 500;
+	font-size: 35px;
+
 }
 
 article p {
+	font: Georgia, sans-serif, "Times New Roman";
+	text-align: left;
 	font-size: 18px;
 	padding: 18px;
+	line-height: 1.5em;
+}
+
+article ul li {
+	font-size: 18px;
+	margin: 5px;
+	line-height: 2.5em;
+	list-style-type: none;
+}
+
+iframe {
+	width: 100%;
+	margin-right: 25%;
+	display: block;
+	border-radius: 15px;
+	box-shadow: -2px -1px white;
+
+}
+
+.row8 {
+	display: flex;
+	margin: auto;
+}
+
+.col8 {
+	flex: 33.33%;
+	margin: 1px;
+	padding: 4px;
+}
+
+.icon2 img {
+	min-width: 75%;
+	width: 300px;
+	height: 400px;
+	margin-left: 6%;
+	box-shadow: -2px -1px coral;
+}
+
+
+.read-button {
+	width: 20%;
+	font-size: 15px;
+	font-family: Georgia, sans-serif, "Times New Roman";
+	text-align: left;
+	margin: 2px;
+	padding: 5px;
+	height: 2.2em;
+	color: transparent;
+	display: block;
+	color: black;
+	
+}
+
+.read-button:hover:not(.active) {
+	background-color: coral;
 
 }
 
@@ -375,18 +539,14 @@ article p {
 	flex: 33.33%;
 	margin: 1px;
 	padding: 4px;
-
-
 }
 
-.col3 img {
-	width: 100%;
-	display: block;
-	padding: 20px;
-	height: 300px;
+.icon1 img {
+	min-width: 75%;
 	width: 300px;
-	margin-left: 25%;
-	box-shadow: -2px -2px coral;
+	height: 400px;
+	margin-left: 18%;
+	box-shadow: -2px -1px coral;
 }
 
 
@@ -442,15 +602,16 @@ footer.footsy h1{
 }
 
 footer.footsy ul {
-	text-align: left;
+	margin: 2px;
+	
+	text-align: center;
 	list-style-type: none;
 	padding-left: 0;
 }
 
 footer.footsy ul li {
 	color: black;
-	line-height: 1.2;
-
+	line-height: 1.5em;
 }
 
 
@@ -479,8 +640,9 @@ footer.footsy ul li {
 }
 
 .container2 h1 {
+	font-family: Georgia, sans-serif, "Times New Roman";
 	color: #fff;
-	text-shadow: 2px 2px #ff;
+	text-shadow: 2px 2px black;
 }
 
 
@@ -494,4 +656,19 @@ ul.social li {
 		margin: 0;
 		display: inline-block;
 		
+}
+
+.row9 {
+	display: flex;
+	margin: auto;
+}
+
+.col9 {
+	flex: 33.33%;
+	margin: 1px;
+	padding: 4px;
+}
+
+.col9 p {
+		margin-left: 25%;
 }
