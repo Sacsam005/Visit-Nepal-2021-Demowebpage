@@ -29,7 +29,7 @@ ul.topnav li {
 
 }
 
-li a {
+.topnav li a {
 	display: block;
   color: black;
   padding: 25px;
@@ -624,13 +624,16 @@ footer.footsy ul li {
 .col4 {
 	float: left;
 	width: 100%;
-	padding: 10px;
+	padding: 0;
 	
 }
 
-.col4 ul li {
+.col4 ul li a {
+	color: black;
 	list-style-type: none;
 	display: block;
+	list-style: none;
+	text-decoration: none;
 	}
 
 
