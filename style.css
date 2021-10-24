@@ -740,13 +740,16 @@ ul.social li a:hover:not(.active) {
 }
 
 .col9 {
+	text-align: left;
 	flex: 33.33%;
 	margin: 1px;
 	padding: 4px;
+	overflow: visible;
 }
 
 .col9 p {
 		margin-left: 25%;
+		overflow: ;
 }
 
 .icon1, .icon2 {
