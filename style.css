@@ -756,3 +756,11 @@ ul.social li a:hover:not(.active) {
 	height: auto;
 
 }
+
+@media screen and (max-width: 680px) {
+	button {
+		width: 25%;
+		text-align: center;
+	}
+
+}
