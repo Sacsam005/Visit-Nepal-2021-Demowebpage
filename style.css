@@ -467,7 +467,7 @@ label {
 	margin: auto;
 	color: #fff;
 	font-weight: 600;
-	background-color: white;
+	background-color: blue;
 	padding: 10px 30px;
 	font-size: 16px;
 	text-align: center;
@@ -476,7 +476,8 @@ label {
 }
 
 .learnmore a {
-	color: black;
+	color: white;
+	
 	font-size: 15px;
 	font-weight: 600;
 	text-decoration: none;
@@ -740,11 +741,9 @@ ul.social li a:hover:not(.active) {
 }
 
 .col9 {
-	text-align: left;
 	flex: 33.33%;
 	margin: 1px;
 	padding: 4px;
-	overflow: visible;
 }
 
 .col9 p {
