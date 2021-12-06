@@ -670,6 +670,10 @@ footer.footsy ul li {
   text-decoration: none;
 }
 
+footer.footsy ul li a {
+  color: white;
+}
+
 .container2 {
   background-color: transparent;
   text-align: center;
