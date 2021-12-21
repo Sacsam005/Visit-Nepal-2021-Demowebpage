@@ -1,17 +1,15 @@
 // change body background
 
-const doc = document.querySelector("body");
-const btn1 = document.querySelector(".btn-primary");
-const btn2 = document.querySelector(".btn-danger");
-const h1 = document.querySelector(".col3 h1");
+const doc = document.querySelector('body');
+const btn1 = document.querySelector('.btn-primary');
+const btn2 = document.querySelector('.btn-danger');
 
-btn1.addEventListener("click", function () {
-  doc.style.backgroundColor = "black";
-  doc.style.color = "white";
-  h1.style.color = "white";
+btn1.addEventListener('click', function () {
+  doc.style.backgroundColor = '#042743';
+  doc.style.color = 'white';
 
-  btn2.addEventListener("click", function () {
-    doc.style.backgroundColor = "#3333";
-    doc.style.color = "black";
+  btn2.addEventListener('click', function () {
+    doc.style.backgroundColor = '#D0D9CD';
+    doc.style.color = 'black';
   });
 });
