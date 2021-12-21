@@ -9,7 +9,7 @@ nav {
 }
 
 html {
-  font-family: Georgia, sans-serif, "Times New Roman";
+  font-family: Georgia, sans-serif, 'Times New Roman';
 }
 
 html,
@@ -101,7 +101,7 @@ h2,
 h3,
 header h1.headsection {
   font-size: 30px;
-  font-family: Georgia, sans-serif, "Times New Roman";
+  font-family: Georgia, sans-serif, 'Times New Roman';
   text-align: center;
   text-shadow: 2px 2px 1px black;
 }
@@ -239,10 +239,10 @@ img {
 
 body {
   background-color: #ece8e8;
-  font: Georgia, sans-serif, "Times New Roman";
+  font: Georgia, sans-serif, 'Times New Roman';
   font-variant-numeric: proportional-nums;
-  font-family: normal 1.5em /1.1 OFL Sorts Mill Goudy, Noto Nastaliq Urdu,
-    My Noto Nastaliq Urdu, Georgia, serif;
+  font-family: normal 1.5em /1.1 OFL Sorts Mill Goudy, Noto Nastaliq Urdu, My Noto Nastaliq Urdu,
+    Georgia, serif;
 }
 
 .list ol li {
@@ -288,7 +288,7 @@ body {
 .row1::after {
   clear: both;
   display: table;
-  content: "";
+  content: '';
 }
 
 div.leftside-col {
@@ -321,7 +321,7 @@ h1.large {
   text-align: center;
 }
 
-input[type="text"] {
+input[type='text'] {
   width: 300px;
 }
 
@@ -329,7 +329,7 @@ input[type="text"] {
   display: inline-grid;
 }
 
-.inputbox[type="text"] {
+.inputbox[type='text'] {
   font-size: 16px;
   width: auto;
   min-width: 40%;
@@ -340,7 +340,7 @@ input[type="text"] {
   align-items: center;
 }
 
-.inputbox[type="number"] {
+.inputbox[type='number'] {
   font-size: 16px;
   width: auto;
   min-width: 15%;
@@ -350,7 +350,7 @@ input[type="text"] {
   text-align: center;
 }
 
-.inputbox[type="submit"] {
+.inputbox[type='submit'] {
   padding: 2px;
   border-radius: 7px;
   color: #fff;
@@ -448,16 +448,21 @@ label {
 }
 
 article h1 {
-  font: Georgia, sans-serif, "Times New Roman";
+  font: Georgia, sans-serif, 'Times New Roman';
   text-align: left;
-  color: black;
   text-shadow: none;
   font-weight: 500;
   font-size: 35px;
 }
 
+.mode h1,
+.mode p {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
 article p {
-  font: Georgia, sans-serif, "Times New Roman";
+  font: Georgia, sans-serif, 'Times New Roman';
   text-align: left;
   font-size: 18px;
   padding: 18px;
@@ -487,7 +492,7 @@ iframe {
 .read-button {
   width: 25%;
   font-size: 15px;
-  font-family: Georgia, sans-serif, "Times New Roman";
+  font-family: Georgia, sans-serif, 'Times New Roman';
   text-align: left;
   margin: 2px;
   padding: 5px;
@@ -499,7 +504,6 @@ iframe {
 
 .read-button a {
   text-decoration: none;
-  color: black;
   font-size: 15px;
   font-weight: 600;
 }
@@ -546,8 +550,10 @@ iframe {
 
 .col8 article p {
   text-align: left;
+  color: white;
   width: auto;
   overflow: visible;
+  text-shadow: 2px 1px 2px black;
 }
 
 .icon2 img {
@@ -664,6 +670,7 @@ footer.footsy ul li {
   margin: auto;
   line-height: 1.6em;
   color: black;
+  text-shadow: 1px 1px 2px black;
   list-style-type: none;
   display: block;
   list-style: none;
@@ -681,7 +688,7 @@ footer.footsy ul li a {
 }
 
 .container2 h1 {
-  font-family: Georgia, sans-serif, "Times New Roman";
+  font-family: Georgia, sans-serif, 'Times New Roman';
   color: #fff;
   text-shadow: 2px 2px black;
 }
